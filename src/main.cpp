@@ -183,16 +183,15 @@ int main(int argc, char *argv[]) {
 
     // Imprimir tfs
     cout << "TFS" << endl;
+    imprimir(tfs);
+    cout << "IDF" << endl;
+    imprimir(IDFs);
+    cout << "TF - IDF" << endl;
     imprimir(tf_IDFs);
     
     // Hallar la similaridad entre los artículos
     cout << "cos(Articulo1.txt, Articulo2.txt) = " << cos(tf_IDFs[0], tf_IDFs[1]) << endl;
 
-    /*tf = crearTF(argv[1], stopWords);
-    // imprimir tf
-    vector<int>::size_type sz = tf.size();
-    for(unsigned int i = 0; i< sz; i++){
-        cout << "(" << tf[i].first << ", " << tf[i].second << ")" << endl;
-    }*/
+    
     
 }
