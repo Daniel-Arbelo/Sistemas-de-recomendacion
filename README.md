@@ -3,19 +3,15 @@
 
 _El objetivo de esta práctica es implementar un sistema de recomendación siguiendo el modelo basados en el contenido._
 
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Tener instalado el makefile y el compilador g++. Se puede instalar:_
 
 ```
-Da un ejemplo
+install ubuntu-make
+sudo apt-get update
+sudo apt-get install g++
 ```
 
 ### Instalación 🔧
